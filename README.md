@@ -44,22 +44,21 @@ llm-orchestrator/
 ## Workflow
 
 ```
-                User Question
+                  User Question
                       │
                       ▼
-              Orchestrator
+              LLM Orchestrator
                       │
-      ┌─────────┬─────────┬─────────┐
-      ▼         ▼         ▼
-   OpenAI    Claude    Gemini
-      │         │         │
-      └─────────┴─────────┘
-                │
-                ▼
-         Judge (Claude)
-                │
-                ▼
-     Final Synthesized Answer
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+     OpenAI       Claude       Gemini
+        │             │             │
+        └─────────────┼─────────────┘
+                      ▼
+            Judge Model (Claude)
+                      │
+                      ▼
+          Final Synthesized Answer
 ```
 
 ## Technologies Used
