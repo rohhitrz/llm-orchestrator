@@ -9,7 +9,8 @@ const client = new Anthropic({
 
 export default async function judge(question, responses) {
 
-const system_prompt=`you are an expert Evaluator, and you job is to judge the response providd by different models
+const system_prompt=`you are an expert Evaluator.
+your job is to judge the response providd by different models
 
 you will be given-
 1. user questions
