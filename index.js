@@ -1,7 +1,7 @@
 import orchestrate from "./orchestrator.js";
 import judge from "./judge.js";
 
-const question = "What is the value of Pi?";
+const question = "What is the value of pi?";
 
 const responses = await orchestrate(question);
 
