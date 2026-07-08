@@ -2,6 +2,10 @@
 
 A JavaScript-based multi-LLM orchestration engine that queries OpenAI, Claude, and Gemini in parallel, then synthesizes the best possible response using a judge model based on the self-consistency workflow.
 
+## Project Type
+
+This project is a **CLI (Command-Line Interface)** application built with Node.js. Users provide a question in the application, which is sent to multiple LLM providers for evaluation and synthesis.
+
 ## Features
 
 - Query multiple AI models simultaneously
@@ -127,7 +131,3 @@ This improves the overall quality, completeness, and reliability of the final an
 - Web-based UI
 - Response confidence scoring
 - Logging and analytics
-
-## License
-
-This project was built as part of the **GenAI with JS 2026** assignment.
