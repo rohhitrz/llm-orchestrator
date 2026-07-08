@@ -1,7 +1,7 @@
 {
   "name": "llm-orchestrator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Multi-LLM self-consistency answer engine using OpenAI, Claude, and Gemini.",
   "license": "ISC",
   "author": "",
   "type": "module",
