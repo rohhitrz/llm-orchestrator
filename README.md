@@ -9,7 +9,7 @@ This project is a **CLI (Command-Line Interface)** application built with Node.j
 ## Features
 
 - Query multiple AI models simultaneously
-- Parallel API execution using `Promise.all()`
+- Parallel API execution using `Promise.allSetted()`
 - OpenAI, Claude, and Gemini integration
 - Final answer synthesized by a dedicated judge model
 - Modular provider architecture
