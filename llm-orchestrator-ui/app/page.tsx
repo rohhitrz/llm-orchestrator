@@ -28,7 +28,7 @@ export default function Home() {
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           placeholder="Ask something..."
-          className="flex-1 rounded-lg border border-zinc-300 px-4 py-2 dark:border-zinc-700 dark:bg-zinc-900"
+          className="flex-1 rounded-lg border border-zinc-300 px-4 py-2 light:border-zinc-700 dark:bg-zinc-900"
         />
         <button
           type="submit"
