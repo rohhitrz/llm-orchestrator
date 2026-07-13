@@ -47,7 +47,8 @@ ${responses.gemini.answer}
 Return your response in the following format:
 
 Winner:
-<Provider Name>
+<Provider Name> in bold and Green in color like it has been passed as test cases passes so they have green with a tick
+
 
 Reason:
 <Why this answer is the best>
